@@ -35,5 +35,7 @@ git config core.pager "LC_ALL=ja_JP.UTF-8 less -Sx4"
 git config diff.cp932.textconv "iconv -f cp932 -t utf-8"
 git config diff.sjis.textconv "iconv -f sjis -t utf-8"
 
+git add .
+git commit -v -m "initial commit"
 
 exit 0
