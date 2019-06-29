@@ -22,6 +22,7 @@ rm ./init.sh
 git init
 
 echo "*.xlsm" > .gitignore
+echo "!/src/*" >> .gitignore
 echo "export.bat" >> .gitignore
 echo "import.bat" >> .gitignore
 echo "open_linux.bat" >> .gitignore
