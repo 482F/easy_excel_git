@@ -19,4 +19,6 @@ mv ./easy_excel_git/* ./
 rm ./easy_excel_git -rf
 rm ./init.sh
 
+echo "*.xlsm" > .gitignore
+
 exit 0
