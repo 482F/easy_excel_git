@@ -15,14 +15,15 @@ mkdir "${SCRIPT_DIR}/bin"
 mkdir "${SCRIPT_DIR}/src"
 
 cd ..
-mv ./easy_excel_git/* ./
-rm ./easy_excel_git -rf
-rm ./init.sh
+mv ./easy_excel_git/import.bat ./
+mv ./easy_excel_git/export.bat ./
+mv ./easy_excel_git/open_linux.bat ./
 
 git init
 
 echo "*.xlsm" > .gitignore
 echo "!/src/*" >> .gitignore
+echo "/easy_excel_git" >> .gitignore
 echo "export.bat" >> .gitignore
 echo "import.bat" >> .gitignore
 echo "open_linux.bat" >> .gitignore

@@ -1,2 +1,2 @@
-cscript vbac.wsf decombine
-wsl bash ./convert_lf.sh
+cscript .\easy_excel_git\vbac.wsf decombine
+wsl bash ./easy_excel_git/convert_lf.sh
