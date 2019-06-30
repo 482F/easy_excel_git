@@ -18,7 +18,7 @@ cd ..
 mv ./easy_excel_git/import.bat ./
 mv ./easy_excel_git/export.bat ./
 mv ./easy_excel_git/open_linux.bat ./
-mv ./easy_excel_git/vbac.wsf
+mv ./easy_excel_git/vbac.wsf ./
 
 git init
 
