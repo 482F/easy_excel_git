@@ -1,1 +1,1 @@
-cscript vbac.wsf combine
+cscript .\easy_excel_git\vbac.wsf combine
