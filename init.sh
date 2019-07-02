@@ -19,6 +19,15 @@ mv ./easy_excel_git/* ./
 rm ./easy_excel_git -rf
 rm ./init.sh
 
+git init
+
 echo "*.xlsm" > .gitignore
+echo "* text=auto" > .gitattributes
+echo "* idff=cp932" >> .gitattributes
+
+git config core.pager "LC_ALL=ja_JP.UTF-8 less -Sx4"
+git config diff.cp932.textconv "iconv -f cp932 -t utf-8"
+git config diff.sjis.textconv "iconv -f sjis -t utf-8"
+
 
 exit 0
