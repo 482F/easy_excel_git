@@ -29,7 +29,7 @@ echo "open_linux.bat" >> .gitignore
 echo "vbac.wsf" >> .gitignore
 
 echo "* text=auto" > .gitattributes
-echo "* idff=cp932" >> .gitattributes
+echo "* diff=cp932" >> .gitattributes
 
 git config core.pager "LC_ALL=ja_JP.UTF-8 less -Sx4"
 git config diff.cp932.textconv "iconv -f cp932 -t utf-8"
