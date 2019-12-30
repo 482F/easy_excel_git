@@ -32,6 +32,7 @@ echo "vbac.wsf" >> .gitignore
 
 echo "* text=auto" > .gitattributes
 echo "* diff=cp932" >> .gitattributes
+echo ".frx binary" >> .gitattributes
 
 git config core.pager "LC_ALL=ja_JP.UTF-8 less -Sx4"
 git config core.quotepath "false"
