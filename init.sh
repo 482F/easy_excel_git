@@ -24,6 +24,8 @@ git init
 
 echo "*.xlsm" > .gitignore
 echo "!/src/*" >> .gitignore
+echo "*.frx" >> .gitignore
+echo "*.frm" >> .gitignore
 echo "/easy_excel_git" >> .gitignore
 echo "export.bat" >> .gitignore
 echo "import.bat" >> .gitignore
@@ -32,7 +34,6 @@ echo "vbac.wsf" >> .gitignore
 
 echo "* text=auto" > .gitattributes
 echo "* diff=cp932" >> .gitattributes
-echo ".frx binary" >> .gitattributes
 
 git config core.pager "LC_ALL=ja_JP.UTF-8 less -Sx4"
 git config core.quotepath "false"
