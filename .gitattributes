@@ -1,2 +1,2 @@
-import.bat text auto
-import.bat diff cp932
+import.bat text=auto
+import.bat diff=cp932
